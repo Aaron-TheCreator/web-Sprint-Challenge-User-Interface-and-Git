@@ -107,6 +107,13 @@ p {
     margin: 5px; 
 }
 
+.top-content-about {
+    display:flex;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -182,6 +189,12 @@ p {
 
 .box10 {
     background: dodgerblue;
+}
+
+.middle-content-about .boxes-about {
+    display:flex;
+    border-bottom: 1px dashed black;
+    flex-wrap: wrap;
 }
 
 .bottom-content {
