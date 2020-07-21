@@ -111,7 +111,9 @@ p {
     display:flex;
     width: 100%;
     border-bottom: 1px dashed black;
+    justify-content: center;
     padding-bottom: 20px;
+    padding-left: 5%;
     margin-bottom: 20px;
    
 }
@@ -198,6 +200,7 @@ p {
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 10%;
+    /*border:1px solid red;*/
 }
 
 .boxes-row-2 {
@@ -225,10 +228,10 @@ p {
 
 .buttons-about {
     background-color: white;
-    width: 35%;
+    width: 30%;
     margin-bottom: 5%;
     border-radius: 10px;
-    padding: 2.5%;
+    padding: 2%;
 }
 
 .buttons-about a {
@@ -241,6 +244,7 @@ p {
 .bottom-content-about {
  
     margin-bottom: 5%;
+    padding-left: 5%;
 }
 
 .bottom-content {
